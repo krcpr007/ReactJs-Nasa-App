@@ -19,7 +19,7 @@ function Apod() {
           alt="ASTRONOMY OF THE DAY"
         />
         <div className="card-body">
-          <h2>A Total Eclipse of the Sun</h2> 
+          <h2>{data.title}</h2> 
           <footer className="blockquote-footer mt-1 text-right">{data.date}</footer>
           <a className="btn btn-sm btn-dark m-2" href={data.hdurl} target="_blank" rel="noreferrer">Download</a>
           <h4>Explanation</h4>
