@@ -3,9 +3,9 @@ import React from 'react'
 function Footer() {
     return (
           
-         <div className='footer fixed-bottom bg-dark text-white text-center'>
+         <footer  className='footer bg-dark mt-2 text-white text-center'>
              <h1>Nasa Application</h1>
-         </div>
+         </footer>
     )
 }
 
