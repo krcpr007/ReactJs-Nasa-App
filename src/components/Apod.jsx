@@ -4,7 +4,7 @@ function Apod() {
   const [data, setData] = useState([]);
   useEffect(() => {
     fetch(
-      `https://api.nasa.gov/planetary/apod?api_key=${process.env.REACT_APP_API_KEY}`
+      `https://api.nasa.gov/planetary/apod?api_key=YDOaObbxjGIed4g5Zk9YdRLvBDPzUnGNjBW3lV7N`
     )
       .then((res) => res.json())
       .then((resp) => setData(resp));
